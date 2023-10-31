@@ -1,7 +1,9 @@
-#include <stdio.h>
+#include "function_test/multiplication_table.h"
 
 int main() {
-    printf("Hello, World!\n");
-    puts("C语言中文网");
+
+    print_multiplication();
+
+
     return 0;
 }
