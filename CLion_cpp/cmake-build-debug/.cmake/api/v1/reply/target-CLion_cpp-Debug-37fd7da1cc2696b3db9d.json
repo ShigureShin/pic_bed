@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "CLion_c.exe"
+			"path" : "CLion_cpp.exe"
 		},
 		{
-			"path" : "CLion_c.pdb"
+			"path" : "CLion_cpp.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -41,25 +41,26 @@
 					"fragment" : "-g"
 				},
 				{
-					"fragment" : "-std=gnu11"
+					"fragment" : "-std=gnu++14"
 				}
 			],
-			"language" : "C",
+			"language" : "CXX",
 			"languageStandard" : 
 			{
 				"backtraces" : 
 				[
 					1
 				],
-				"standard" : "11"
+				"standard" : "14"
 			},
 			"sourceIndexes" : 
 			[
-				0
+				0,
+				1
 			]
 		}
 	],
-	"id" : "CLion_c::@6890427a1f51a3e7e1df",
+	"id" : "CLion_cpp::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -77,10 +78,10 @@
 				"role" : "libraries"
 			}
 		],
-		"language" : "C"
+		"language" : "CXX"
 	},
-	"name" : "CLion_c",
-	"nameOnDisk" : "CLion_c.exe",
+	"name" : "CLion_cpp",
+	"nameOnDisk" : "CLion_cpp.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -92,15 +93,8 @@
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				0
-			]
-		},
-		{
-			"name" : "Header Files",
-			"sourceIndexes" : 
-			[
-				1,
-				2
+				0,
+				1
 			]
 		}
 	],
@@ -109,18 +103,14 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "main.c",
+			"path" : "main.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "function_test/find_Narcissistic.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"path" : "function_test/multiplication_table.h",
-			"sourceGroupIndex" : 1
+			"compileGroupIndex" : 0,
+			"path" : "3_\u547d\u540d\u7a7a\u95f4\u7684\u5b9a\u4e49.cpp",
+			"sourceGroupIndex" : 0
 		}
 	],
 	"type" : "EXECUTABLE"

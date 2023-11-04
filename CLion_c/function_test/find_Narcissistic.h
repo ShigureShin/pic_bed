@@ -16,7 +16,7 @@ void find_Narcissistic(int num) {
         int c = i % 10;
 
         if (pow(a, 3) + pow(b, 3) + pow(c, 3) == i) {
-            printf("%d是水仙花数！\n", i);
+            printf("%d is the Narcissistich number!\n", i);
         }
     }
 }

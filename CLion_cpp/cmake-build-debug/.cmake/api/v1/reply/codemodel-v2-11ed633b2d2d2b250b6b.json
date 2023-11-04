@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "CLion_cpp::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-CLion_cpp-Debug-355fc638e10276d97d76.json",
+					"jsonFile" : "target-CLion_cpp-Debug-37fd7da1cc2696b3db9d.json",
 					"name" : "CLion_cpp",
 					"projectIndex" : 0
 				}
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "D:/Code/CLion_cpp/cmake-build-debug",
-		"source" : "D:/Code/CLion_cpp"
+		"build" : "D:/Code/UsingC_Project/CLion_cpp/cmake-build-debug",
+		"source" : "D:/Code/UsingC_Project/CLion_cpp"
 	},
 	"version" : 
 	{
