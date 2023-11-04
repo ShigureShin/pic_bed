@@ -1,3 +1,0 @@
-D:/Code/UsingC_Project/CLion_cpp/cmake-build-debug/CMakeFiles/CLion_cpp.dir
-D:/Code/UsingC_Project/CLion_cpp/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/Code/UsingC_Project/CLion_cpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
