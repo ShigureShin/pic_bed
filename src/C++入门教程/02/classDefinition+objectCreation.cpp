@@ -3,18 +3,17 @@
 // 类的定义
 class Student{
 public:
-
-// member variable
+	// member variable
 	const char *name;
 	int age;
 	float score;
-
-// member function
+	
+	// member function
 	void say();
 };
 
-// 类之外定义成员函数
-void Student::say(){
+
+void Student::say(){// 类之外定义成员函数
 	std::cout << name << " " << age << " " << score << " " << std::endl;
 }
 
