@@ -6,9 +6,10 @@
 如果以后还有时间，可以按照后边的[README#深入学习C++](C++/README.md#深入学习C++)去深入。
 
 ## 快速入门
-- **教程：**
+
+- **速览教程：**
 	- [x] [# C++入门教程，C++基础教程（更新完毕）](https://c.biancheng.net/cplus/)
-	- [ ] [# C++11教程：C++11新特性大汇总](https://c.biancheng.net/cplus/11/)
+	- [x] [# Qt教程，Qt5编程入门教程（非常详细）](https://c.biancheng.net/qt/)
 - 其他：
 	- [ ] [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html)
 	- [ ] [现代 C++ 教程：高速上手 C++ 11/14/17/20](https://changkun.de/modern-cpp/)
@@ -18,26 +19,25 @@
 	- [# C++ 找工作校招需要掌握到什么程度？ - 梓炀的回答 - 知乎](https://www.zhihu.com/question/585465188/answer/2928891679)
 	- [# C++ 后端开发如何规划学习路线？ - 终端研发部的回答 - 知乎](https://www.zhihu.com/question/452409630/answer/3167010580)
 
-## C++进阶路线
+## C++路线
 
-- [ ] 《C++ Primer 第五版》
+- [ ] **【必看书籍】《C++ Primer 第五版》**
 	- 需要长期翻看的参考书
 	- 一定要完成课后作业题
 - [ ] 侯捷老师的视频
-	- [ ] STL泛型编程
-	- [ ] C++11新特性
-	- [ ] 内存管理与分析
-- [ ] 《STL源码剖析》
-- [ ] 《Effective C++》
-- [ ] 《深度探索C++》
-	- [ ] 对象模型第三章
-	- [ ] 第三章以外的部分
-- 实战项目
+	- STL泛型编程
+	- C++11新特性
+	- 内存管理与分析
+- [ ] **【必看书籍】《Effective C++》**
+- [ ] **【必看书籍】《STL源码剖析》**
+- [ ] **【必看书籍】《深度探索C++》**
+	- 对象模型第三章
+	- 第三章以外的部分
+- **实战项目**
 	- [ ] CMU的15445的lab
 	- [ ] 自主开发一个服务器
-	- 必看书籍
-		- [ ] 《TCP/IP网络编程》
-		- [ ] 《Linux高性能服务端编程》
+- [ ] **【必看书籍】《TCP/IP网络编程》**
+- [ ] **【必看书籍】《Linux高性能服务端编程》**
 - 保持学习
 	- 《C++沉思录》
 	- 《C++模板元编程》
@@ -205,26 +205,7 @@
 当然啦，读懂这本书还是很耗时的，学习其中的思想也会受益匪浅的。
 
 ---
-# STL
 
-- [ ] [# STL教程：C++ STL快速入门（非常详细）](https://c.biancheng.net/stl/)
+## 总结
 
----
-
-# QT
-- **教程**
-	- [x] [# Qt教程，Qt5编程入门教程（非常详细）](https://c.biancheng.net/qt/)
-- **笔记**
-	- [[8.Qt 安装目录结构]]
-	- [[12~15.Qt程序：创建、运行、分析]]
-	- [[【项目总结】“学生信息管理系统”的一些notes]]
-
----
-
-# UE4
-- **教程**
-	- [ ] [# UE4教程：虚幻4引擎(Unreal Engine 4)学习指南](https://c.biancheng.net/ue4/)
-
-
----
-
+按照上面推荐的内容来学习的话，要学习得深入一点的话1年的时间肯定需要的，甚至2年也不足为其。当然对于非科班的学生来说，大部分都没有充足的时间的，这时候建议尽量把C++基础、计算机网络、操作系统、网络编程、[数据结构与算法](https://www.zhihu.com/search?q=%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra=%7B%22sourceType%22%3A%22answer%22%2C%22sourceId%22%3A1836733744%7D)这五个部分的内容学得很扎实，大概6个月的时间。
