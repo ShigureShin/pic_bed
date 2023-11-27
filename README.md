@@ -5,35 +5,30 @@
 
 如果以后还有时间，可以按照后边的[README#深入学习C++](C++/README.md#深入学习C++)去深入。
 
-## 快速入门
-
 - **速览教程：**
 	- [x] [# C++入门教程，C++基础教程（更新完毕）](https://c.biancheng.net/cplus/)
 	- [x] [# Qt教程，Qt5编程入门教程（非常详细）](https://c.biancheng.net/qt/)
-- 其他：
-	- [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html)
-	- [现代 C++ 教程：高速上手 C++ 11/14/17/20](https://changkun.de/modern-cpp/)
-	- [parallel101: 高性能并行编程与优化 -彭于斌](https://link.zhihu.com/?target=https%3A//github.com/parallel101/course)
-- 参考：
-	- [# 保姆级 C++ 学习路线](https://mp.weixin.qq.com/s/QCtQoIOg6_f1GX9rT8jG4Q)
-	- [# C++ 找工作校招需要掌握到什么程度？ - 梓炀的回答 - 知乎](https://www.zhihu.com/question/585465188/answer/2928891679)
-	- [# C++ 后端开发如何规划学习路线？ - 终端研发部的回答 - 知乎](https://www.zhihu.com/question/452409630/answer/3167010580)
 
-## C++路线
 
-- **【必看书籍】《C++ Primer 第五版》**
+# C++路线
+
+- [# CMake](https://github.com/ttroy50/cmake-examples)
+- **【必看书籍】[《C++ Primer 中文版（第 5 版）》](../C++Primer5th/pdf/C++%20Primer%20中文版（第%205%20版）.pdf)
 	- 需要长期翻看的参考书
 	- 一定要完成课后作业题
-- **【必看书籍】《Effective C++》**
-- **【必看书籍】《STL源码剖析》**
-- **【必看书籍】《深度探索C++》**
 - 侯捷老师的视频
 	- STL泛型编程
 	- C++11新特性
 	- 内存管理与分析
-
+- **【必看书籍】《Effective C++》**
+- **【必看书籍】《STL源码剖析》**
+- **【必看书籍】《深度探索C++》**
 	- 对象模型第三章
 	- 第三章以外的部分
+- 其他：
+	- [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html)
+	- [现代 C++ 教程：高速上手 C++ 11/14/17/20](https://changkun.de/modern-cpp/)
+	- [parallel101: 高性能并行编程与优化 -彭于斌](https://link.zhihu.com/?target=https%3A//github.com/parallel101/course)
 - **实战项目**
 	- CMU的15445的lab
 	- 自主开发一个服务器
@@ -44,7 +39,10 @@
 	- 《C++模板元编程》
 	- 《C++并发并发编程实战》
 - 参考：
-	- **[# 为什么说C++很难？ - 码农出击的回答 - 知乎](https://www.zhihu.com/question/357354437/answer/2617331811)**
+	- [# 为什么说C++很难？ - 码农出击的回答 - 知乎](https://www.zhihu.com/question/357354437/answer/2617331811)
+	- [# 保姆级 C++ 学习路线](https://mp.weixin.qq.com/s/QCtQoIOg6_f1GX9rT8jG4Q)
+	- [# C++ 找工作校招需要掌握到什么程度？ - 梓炀的回答 - 知乎](https://www.zhihu.com/question/585465188/answer/2928891679)
+	- [# C++ 后端开发如何规划学习路线？ - 终端研发部的回答 - 知乎](https://www.zhihu.com/question/452409630/answer/3167010580)
 
 # 深入学习C++
 
