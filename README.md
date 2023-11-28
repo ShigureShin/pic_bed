@@ -13,7 +13,7 @@
 # C++路线
 
 - [# CMake](https://github.com/ttroy50/cmake-examples)
-- **【必看书籍】[《C++ Primer 中文版（第 5 版）》](../C++Primer5th/pdf/C++%20Primer%20中文版（第%205%20版）.pdf)
+- **【必看书籍】[《C++ Primer 中文版（第 5 版）》](C++%20Primer%20中文版（第%205%20版）.pdf)
 	- 需要长期翻看的参考书
 	- 一定要完成课后作业题
 - 侯捷老师的视频
