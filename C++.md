@@ -4,6 +4,7 @@
 - 入门：
 	- [《C++ Primer 中文版（第 5 版）》](C++%20Primer%20中文版（第%205%20版）.pdf)
 		- notes: [[C++Primer5th]]
+	- [《C++并发编程(中文版)（C++ Concurrency In Action）》 - 书栈网 · BookStack](https://www.bookstack.cn/read/Cpp_Concurrency_In_Action/README.md)
 	- 侯捷老师的视频
 		- STL泛型编程
 		- C++11新特性
@@ -12,8 +13,8 @@
 	- 《Effective C++》
 	- 《STL源码剖析》
 	- 《深度探索C++》
-	- [# Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html)
-	- [# 现代C++教程：高速上手](https://changkun.de/modern-cpp/)
+	- [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html)
+	- [现代C++教程：高速上手](https://changkun.de/modern-cpp/)
 - 实战：
 	- CMU的15445的lab
 	- 自主开发一个服务器
