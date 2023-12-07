@@ -43,6 +43,7 @@
 ---
 # 参考回答
 
+- [# 非科班计算机自学个人指南 - 知乎](https://zhuanlan.zhihu.com/p/386036259)
 - [# 为什么说 C++ 很难？ - 码农出击的回答 - 知乎](https://www.zhihu.com/question/357354437/answer/2617331811)
 - [# 保姆级 C++ 学习路线](https://mp.weixin.qq.com/s/QCtQoIOg6_f1GX9rT8jG4Q)
 - [# C++ 找工作校招需要掌握到什么程度？ - 梓炀的回答 - 知乎](https://www.zhihu.com/question/585465188/answer/2928891679)
