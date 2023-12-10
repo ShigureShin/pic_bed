@@ -11,6 +11,8 @@
 	- 指针&引用
 	- 容器类库
 	- 泛型算法
+- [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html)
+	- 谷歌的 C++ 代码规范
 
 ---
 # 系统编程基础
@@ -21,8 +23,6 @@
 	- 第七章：链接，你会明白什么是静态链接、动态链接、加载等等，这对于编码有实际意义的，尤其是你在大型项目中会遇到各种链接阶段的错误、符号未定义、符号冲突之类的，看完这章基本都能掌握。
 	- 第九章：虚拟内存，这块是将内存的，C/C++程序员必须精确的掌握自己程序的内存分配和释放。
 - 程序员的自我修养：链接、装载与库
-- [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html)
-	- 谷歌的 C++ 代码规范
 
 ---
 # 进阶学习
