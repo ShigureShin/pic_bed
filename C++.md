@@ -3,7 +3,7 @@
 ---
 # 编程语言基础
 
-- 《C++ Primer 中文版（第 5 版）》
+- [《C++ Primer 中文版（第 5 版）》](https://github.com/ShinATK/CppPrimer5th)
 	- 基础语言	
 	- 类与面向对象
 	- 输入输出
