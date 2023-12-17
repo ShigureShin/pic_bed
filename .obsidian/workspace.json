@@ -1,0 +1,300 @@
+{
+  "main": {
+    "id": "6e399a9ec75080c6",
+    "type": "split",
+    "children": [
+      {
+        "id": "eaad1c47d6b22464",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f86160f25422c868",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "图形学/LearnOpenGL/libs/坐标系统 Coordinate Systems.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ce30f7b698fca77d",
+    "type": "split",
+    "children": [
+      {
+        "id": "cb2c06002eab954c",
+        "type": "tabs",
+        "dimension": 70.85828343313374,
+        "children": [
+          {
+            "id": "d9d50e5720630d77",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "742ca73d6569eac3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c2ad563edd1d76c4",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "547962595279c1d3",
+        "type": "tabs",
+        "dimension": 29.141716566866265,
+        "children": [
+          {
+            "id": "7be53d6679ced0a3",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 348.5
+  },
+  "right": {
+    "id": "b533429b973ecc65",
+    "type": "split",
+    "children": [
+      {
+        "id": "2e5c4fb184c9d371",
+        "type": "tabs",
+        "dimension": 30.938123752495013,
+        "children": [
+          {
+            "id": "3860298ca8a86947",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "图形学/LearnOpenGL/libs/坐标系统 Coordinate Systems.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [
+                    {
+                      "query": "path:计算机408  ",
+                      "color": {
+                        "a": 1,
+                        "rgb": 14701138
+                      }
+                    },
+                    {
+                      "query": "path:C++Primer5th  ",
+                      "color": {
+                        "a": 1,
+                        "rgb": 14725458
+                      }
+                    },
+                    {
+                      "query": "path:CSAPP  ",
+                      "color": {
+                        "a": 1,
+                        "rgb": 11657298
+                      }
+                    },
+                    {
+                      "query": "path:LearnOpenGL  ",
+                      "color": {
+                        "a": 1,
+                        "rgb": 5431378
+                      }
+                    },
+                    {
+                      "query": "path:Math  ",
+                      "color": {
+                        "a": 1,
+                        "rgb": 5431473
+                      }
+                    },
+                    {
+                      "query": "path:Planner  ",
+                      "color": {
+                        "a": 1,
+                        "rgb": 16579836
+                      }
+                    }
+                  ],
+                  "collapse-display": true,
+                  "showArrow": true,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1.06979166666667,
+                  "lineSizeMultiplier": 5,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 172,
+                  "scale": 0.7132754626224422,
+                  "close": true
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "5963e13b63a4a75c",
+        "type": "tabs",
+        "dimension": 69.061876247505,
+        "children": [
+          {
+            "id": "ff8d6a2c793fe8f8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "图形学/LearnOpenGL/libs/坐标系统 Coordinate Systems.md"
+              }
+            }
+          },
+          {
+            "id": "3c4591d0824aa472",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "图形学/LearnOpenGL/libs/坐标系统 Coordinate Systems.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1a8af13f1c090a9f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "图形学/LearnOpenGL/libs/坐标系统 Coordinate Systems.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "90e5fb61355f48f9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 323.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "active": "f86160f25422c868",
+  "lastOpenFiles": [
+    "图形学/LearnOpenGL/libs/01-入门.md",
+    "图形学/LearnOpenGL/README.md",
+    "图形学/README.md",
+    "编程语言/C++Primer5th/README.md",
+    "编程语言/C++入门教程/C++入门教程.md",
+    "编程语言/README.md",
+    "计算机基础/计算机408/README.md",
+    "图形学",
+    "计算机基础",
+    "编程语言",
+    "ToolKit/Tips/开机自启动.md",
+    "Template/DayTemplate.md",
+    "Cpp/README.md",
+    "Computer",
+    "图形学/LearnOpenGL/libs/坐标系统 Coordinate Systems.md",
+    "数学基础/README.md",
+    "数学基础/信号与系统-浙大/信号与系统-浙大.md",
+    "DayPlanner",
+    "Cpp/Graphics.md",
+    "Cpp/计算机408/README.md",
+    "Cpp/src/C++入门教程/06/operatorOverloading.cpp.md",
+    "Cpp/src/C++入门教程/06",
+    "Cpp/src/C++入门教程",
+    "Cpp/src",
+    "Cpp/C++入门教程/src/07/templateExSpecial.exe",
+    "Cpp/C++入门教程/src/07/templateExSpecial.cpp",
+    "Cpp/C++入门教程/src/07/errorRecord.md",
+    "Cpp/C++入门教程/src/02/errorRecord.md",
+    "Cpp/C++入门教程/notes/12.C++多文件编程.md",
+    "Cpp/C++入门教程/notes/11.文件操作.md",
+    "Cpp/C++入门教程/notes/10.输入输出流.md",
+    "Cpp/C++入门教程/notes/09.面向对象进阶.md",
+    "Cpp/C++入门教程/notes/08.C++异常处理.md",
+    "Cpp/C++入门教程/notes/07.模板和泛型程序设计.md",
+    "Cpp/C++入门教程/notes/06.运算符重载（Operator）.md",
+    "Cpp/C++入门教程/notes/05.C++多态与虚函数.md",
+    "Cpp/C++入门教程/img/Pasted image 20231117170230.png",
+    "Cpp/C++入门教程/img/Pasted image 20231116165113.png",
+    "Cpp/C++入门教程/img/Pasted image 20231116150547.png",
+    "Cpp/C++入门教程/img/Pasted image 20231116144447.png",
+    "Cpp/计算机408/计算机组成原理/libs/img/Pasted image 20231215162556.png",
+    "Cpp/计算机408/计算机组成原理/libs/img/Pasted image 20231215121021.png",
+    "Cpp/计算机408/计算机组成原理/libs/img/Pasted image 20231215115758.png",
+    "Cpp/计算机408/计算机组成原理/libs/img/Pasted image 20231215115350.png",
+    "Cpp/计算机408/计算机组成原理/libs/img/Pasted image 20231215115234.png",
+    "Cpp/计算机408/计算机组成原理/libs/img/Pasted image 20231215114305.png"
+  ]
+}
