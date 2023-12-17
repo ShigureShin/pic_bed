@@ -248,8 +248,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f86160f25422c868",
+  "active": "d9d50e5720630d77",
   "lastOpenFiles": [
+    "README.md",
+    "图形学/LearnOpenGL/libs/坐标系统 Coordinate Systems.md",
     "图形学/LearnOpenGL/libs/01-入门.md",
     "图形学/LearnOpenGL/README.md",
     "图形学/README.md",
@@ -264,7 +266,6 @@
     "Template/DayTemplate.md",
     "Cpp/README.md",
     "Computer",
-    "图形学/LearnOpenGL/libs/坐标系统 Coordinate Systems.md",
     "数学基础/README.md",
     "数学基础/信号与系统-浙大/信号与系统-浙大.md",
     "DayPlanner",
@@ -285,7 +286,6 @@
     "Cpp/C++入门教程/notes/08.C++异常处理.md",
     "Cpp/C++入门教程/notes/07.模板和泛型程序设计.md",
     "Cpp/C++入门教程/notes/06.运算符重载（Operator）.md",
-    "Cpp/C++入门教程/notes/05.C++多态与虚函数.md",
     "Cpp/C++入门教程/img/Pasted image 20231117170230.png",
     "Cpp/C++入门教程/img/Pasted image 20231116165113.png",
     "Cpp/C++入门教程/img/Pasted image 20231116150547.png",
