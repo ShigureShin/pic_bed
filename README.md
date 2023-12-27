@@ -1,4 +1,4 @@
-#cpp 
+#readme
 
 ---
 # 编程语言基础
@@ -7,18 +7,30 @@
 - [ ] [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html)
 
 ---
-# 系统编程基础
+# 计算机基础
 
-- [ ] [深入理解计算机系统](https://github.com/ShinATK/CSAPP)（重点：1、3、7、9）
+- [ ] [王道计算机考研408](计算机基础/计算机408/README.md)
+- [ ] 深入理解计算机系统（重点：1、3、7、9）
 - [ ] 程序员的自我修养：链接、装载与库
+
+---
+# 数学基础
+
+- [ ] 微积分
+- [ ] 线性代数
+- [ ] 概率论
+- [ ] 离散数学
+- [ ] 博弈论
+
+- [ ] 信号与系统
 
 ---
 # 进阶学习
 
+- [ ] [C++ 并发编程 (中文版)](https://www.bookstack.cn/read/Cpp_Concurrency_In_Action/README.md)
 - [ ] 《Effective C++》
 - [ ] 《STL 源码剖析》
 - [ ] 《深度探索 C++对象模型》
-- [ ] [《C++ 并发编程 (中文版)（C++ Concurrency In Action）》 - 书栈网 · BookStack](https://www.bookstack.cn/read/Cpp_Concurrency_In_Action/README.md)
 
 ---
 # 实战内容
