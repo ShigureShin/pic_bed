@@ -16,26 +16,26 @@
 
 - 创建销毁
 
-![](img/Pasted%20image%2020231209165615.png)
+![](../img/Pasted%20image%2020231209165615.png)
 
 - 增加删除
 	- 出栈的同时会删除栈顶元素
 
-![](img/Pasted%20image%2020231209165620.png)
+![](../img/Pasted%20image%2020231209165620.png)
 
 - 查找
 	- 读取栈顶元素但不删除
-![](img/Pasted%20image%2020231209165659.png)
+![](../img/Pasted%20image%2020231209165659.png)
 
 - 判空
 
-![](img/Pasted%20image%2020231209165724.png)
+![](../img/Pasted%20image%2020231209165724.png)
 
 ## 常考题型
 
 - 合法的出栈顺序
 	- 进栈顺序中穿插进行出栈（进出栈元素顺序会不同）
-	- ![](img/Pasted%20image%2020231209165900.png)
+	- ![](../img/Pasted%20image%2020231209165900.png)
 
 ## 栈的物理实现
 ### 顺序栈
@@ -61,7 +61,7 @@ void InitStack(SqStack &S)
 }
 ```
 
-![](img/Pasted%20image%2020231210163238.png)
+![](../img/Pasted%20image%2020231210163238.png)
 
 - 判空、判满
 
@@ -143,7 +143,7 @@ void InitStack(ShStack &S)
 
 - 栈满：`S.top0 + 1 == S.top1`
 
-![](img/Pasted%20image%2020231210164606.png)
+![](../img/Pasted%20image%2020231210164606.png)
 
 ### 链栈
 
@@ -156,7 +156,7 @@ void InitStack(ShStack &S)
 - 带头节点
 - 不带头节点
 
-![](img/Pasted%20image%2020231211140320.png)
+![](../img/Pasted%20image%2020231211140320.png)
 
 ```c
 typedef struct Linknode{

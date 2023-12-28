@@ -18,7 +18,7 @@
 
 ## 基本操作
 
-![](img/Pasted%20image%2020231211155317.png)
+![](../img/Pasted%20image%2020231211155317.png)
 
 - 判断队列是否为空
 
@@ -194,7 +194,7 @@ typedef struct{
 }LinkQueue;
 ```
 
-![](img/Pasted%20image%2020231211163648.png)
+![](../img/Pasted%20image%2020231211163648.png)
 
 #### 头节点
 - 初始化
@@ -327,11 +327,11 @@ void DeQueue(LinkQueue &Q, ElemType &x)
 - **考点**：判断输出序列合法性
 	- 如：数据元素输入序列为1、2、3、4，则哪些输出序列合法，哪些非法
 	- 栈：验证过栈后，如果需要考虑队列中的合法情况，则*只需要验证在栈的条件下不合法的情况*
-	- ![](img/Pasted%20image%2020231211170048.png)
+	- ![](../img/Pasted%20image%2020231211170048.png)
 	- 队列
 	- 双端队列
 
-![](img/Pasted%20image%2020231211170108.png)
+![](../img/Pasted%20image%2020231211170108.png)
 
 
 
