@@ -10,21 +10,23 @@ Abstract:: 本日大纲
 ---
 # 今日行程记录
 
-- 编程语言
-	- xxx
-- 计算机基础
-	- xxx
-- 数学基础
-	- xxx
+- Coding
+- Computer
+- Graphic
+- Math
+- Reading
+- Software
+- ToolKit
 
 ---
 # 明天学习安排
 
-- 编程语言
-	- xxx
-- 计算机基础
-	- xxx
-- 数学基础
-	- xxx
+- Coding
+- Computer
+- Graphic
+- Math
+- Reading
+- Software
+- ToolKit
 
 
