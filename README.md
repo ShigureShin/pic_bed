@@ -26,8 +26,8 @@
 ---
 # 编程语言基础
 
-- [《C++ Primer 中文版（第 5 版）》](https://github.com/ShinATK/CppPrimer5th)
-- [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html)
+- 《C++ Primer 中文版（第 5 版）》
+- [# Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html)
 
 ---
 # 计算机基础
@@ -50,7 +50,7 @@
 ---
 # 进阶学习
 
-- [C++ 并发编程 (中文版)](https://www.bookstack.cn/read/Cpp_Concurrency_In_Action/README.md)
+- [# C++ 并发编程 (中文版)](https://www.bookstack.cn/read/Cpp_Concurrency_In_Action/README.md)
 - 《Effective C++》
 - 《STL 源码剖析》
 - 《深度探索 C++对象模型》
@@ -74,7 +74,7 @@
 ---
 # 参考
 
-- [C++ 语言超详细系统学习路线（2023） | 编程指北](https://csguide.cn/roadmap/cpp/how_to_learn_cpp.html#%E4%B8%80%E3%80%81%E5%85%A5%E9%97%A8)
+- [# C++ 语言超详细系统学习路线（2023） | 编程指北](https://csguide.cn/roadmap/cpp/how_to_learn_cpp.html#%E4%B8%80%E3%80%81%E5%85%A5%E9%97%A8)
 - [# 非科班计算机自学个人指南 - 知乎](https://zhuanlan.zhihu.com/p/386036259)
 - [# 为什么说 C++ 很难？ - 码农出击的回答 - 知乎](https://www.zhihu.com/question/357354437/answer/2617331811)
 - [# 保姆级 C++ 学习路线](https://mp.weixin.qq.com/s/QCtQoIOg6_f1GX9rT8jG4Q)
