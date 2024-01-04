@@ -60,8 +60,8 @@ OpenGL、DirectX、Vulkan
 ---
 # 参考
 
-- [国内有哪些做图形学渲染方向的团队或老师？ - 知乎](https://www.zhihu.com/question/462146663/answer/1936855936)
-- [计算机图形学（渲染方向）学习全攻略——学术科研篇](https://juejin.cn/post/6975112060006858760)
-- [游戏程序员学习之路](https://miloyip.github.io/game-programmer/game-programmer-zh-cn.svg)
-- [图形学渲染方向个人学习路线整理](https://zhuanlan.zhihu.com/p/445343440)
-- [计算机图形学应该从什么开始学习？ - 网易游戏雷火事业群的回答 - 知乎](https://www.zhihu.com/question/349302834/answer/931378785)
+- [# 国内有哪些做图形学渲染方向的团队或老师？ - 知乎](https://www.zhihu.com/question/462146663/answer/1936855936)
+- [# 计算机图形学（渲染方向）学习全攻略——学术科研篇](https://juejin.cn/post/6975112060006858760)
+- [# 游戏程序员学习之路](https://miloyip.github.io/game-programmer/game-programmer-zh-cn.svg)
+- [# 图形学渲染方向个人学习路线整理](https://zhuanlan.zhihu.com/p/445343440)
+- [# 计算机图形学应该从什么开始学习？ - 网易游戏雷火事业群的回答 - 知乎](https://www.zhihu.com/question/349302834/answer/931378785)
