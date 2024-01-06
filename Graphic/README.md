@@ -11,14 +11,19 @@
 # 图形学基础
 
 - Fundamentals of Computer Graphics, Fourth Edition
-- 3D 数学基础：图形和游戏开发（第 2 版）
 
-- 反复学习至少两遍
-	- [Learning OpenGL](https://learnopengl-cn.github.io/)
-	- RayTracing in one weekend 等三本书（Peter Ray tracing 三部曲）
+- 3 D 数学基础：图形和游戏开发（第 2 版）
+
+反复学习至少两遍
+
+- [Learning OpenGL](https://learnopengl-cn.github.io/)
+
+- RayTracing in one weekend 等三本书（Peter Ray tracing 三部曲）
+
 - 计算机图形学 第 4 版
 	- 原理+OpenGL 例子
 	- 全局光照部分参考[链接](https://www.kevinbeason.com/smallpt/)，写一个基于 PathTracing 的光线追踪渲染器
+
 - 软渲染参考链接，分别对应两个不同的渲染流派：
 	- [3D C/C++ tutorials - Software rendering](http://www.3dcpptutorials.sk/index.php?id=15)
 	- [Developing a Software Renderer](https://trenki2.github.io/blog/2017/06/06/developing-a-software-renderer-part1/)
@@ -29,6 +34,8 @@
 - [DX12 Raytracing tutorial](https://developer.nvidia.com/rtx/raytracing/dxr/DX12-Raytracing-tutorial-Part-1)
 
 OpenGL、DirectX、Vulkan
+
+- Unreal Engine
 
 ---
 # 图形学进阶
