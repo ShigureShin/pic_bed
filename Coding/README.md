@@ -8,6 +8,13 @@
 - 侯捷老师视频教程
 
 ---
+# 数据结构与算法
+
+- [OI Wiki - OI Wiki](https://oi-wiki.org/)
+	- [算法基础简介 - OI Wiki](https://oi-wiki.org/basic/)
+- [数据结构与算法 | 菜鸟教程](https://www.runoob.com/data-structures/data-structures-tutorial.html)
+
+---
 # 进阶学习
 
 - [# C++ 并发编程 (中文版)](https://www.bookstack.cn/read/Cpp_Concurrency_In_Action/README.md)
