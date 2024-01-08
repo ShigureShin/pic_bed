@@ -4,7 +4,8 @@
 
 ```dataview
 table Tags, Abstract
-from "DayPlanner/Day/xxxx-Wxx" and #record and #day
+from "DayPlanner/Day/xxxx/Wxx" and #record and #day
+SORT file.name DESC
 ```
 
 ---
