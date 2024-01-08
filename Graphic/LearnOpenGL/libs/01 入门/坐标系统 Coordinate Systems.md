@@ -3,7 +3,7 @@
 
 ---
 
-OpenGL 希望在每次*顶点着色器运行后*，我们可见的所有顶点都为[标准化设备坐标 NDC](标准化设备坐标%20NDC.md) (Normalized Device Coordinate, NDC)
+OpenGL 希望在每次*顶点着色器运行后*，我们可见的所有顶点都为[标准化设备坐标 NDC](01%20入门/标准化设备坐标%20NDC.md) (Normalized Device Coordinate, NDC)
 - 即每个顶点的**x**，**y**，**z**坐标都应该在 **-1.0** 到 **1.0** 之间，超出这个坐标范围的顶点都将不可见
 
 在流水线中，物体的顶点在最终转化为屏幕坐标之前还会被变换到多个坐标系统(Coordinate System)，在这些**过渡**坐标系(Intermediate Coordinate System)中，*一些操作或运算更加方便和容易*。

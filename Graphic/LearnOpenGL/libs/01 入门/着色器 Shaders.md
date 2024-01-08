@@ -113,7 +113,7 @@ GLSL 定义了 `in` 和 `out` 关键字来实现着色器的输入和输出（�
 
 例题：[向顶点属性中添加颜色数据实现三角形内部颜色插值效果](../src/03-hello-shaders/examples/shaders-vertexColor/)
 
-问题：[顶点属性添加颜色数据但只显示了一个三角形](../error/添加顶点颜色属性.md)
+问题：[顶点属性添加颜色数据但只显示了一个三角形](../../error/添加顶点颜色属性.md)
 
 
 ## 自定义着色器类
@@ -135,4 +135,4 @@ GLSL 定义了 `in` 和 `out` 关键字来实现着色器的输入和输出（�
 
 ## 练习
 
-- [03-hello-shaders 练习题](../src/03-hello-shaders/03-hello-shaders%20练习题.md)
+- [03-hello-shaders 练习题](../../src/03-hello-shaders/03-hello-shaders%20练习题.md)

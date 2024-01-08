@@ -232,5 +232,5 @@ $$
 #include <glm/gtc/type_ptr.hpp>
 ```
 
-- [05-hello-transformation](../src/05-hello-transformation/05-hello-transformation.md)
+- [05-hello-transformation](../../src/05-hello-transformation/05-hello-transformation.md)
 

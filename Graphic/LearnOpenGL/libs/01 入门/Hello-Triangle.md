@@ -3,7 +3,7 @@
 ---
 ## 图形渲染管线
 
-[图形学渲染管线](图形学渲染管线.md)两个主要部分：
+[图形学渲染管线](01%20入门/图形学渲染管线.md)两个主要部分：
 - 3 D 坐标转换为 2 D 坐标
 - 2 D 坐标转变为实际的有颜色的像素
 
@@ -32,7 +32,7 @@ float vertices[] = {
 };
 ```
 
-OpenGL 仅当 3 D 坐标在 3 个轴（x、y 和 z）上 -1.0 到 1.0 的范围内时才进行处理，这个范围内的坐标叫做[标准化设备坐标 NDC](标准化设备坐标%20NDC.md)（Normalized Device Coordinates）
+OpenGL 仅当 3 D 坐标在 3 个轴（x、y 和 z）上 -1.0 到 1.0 的范围内时才进行处理，这个范围内的坐标叫做[标准化设备坐标 NDC](01%20入门/标准化设备坐标%20NDC.md)（Normalized Device Coordinates）
 
 - 利用 glGenBuffers 函数和一个缓冲 ID 生成一个 VBO 对象
 ```cpp
@@ -136,4 +136,4 @@ vertextShader = glCreateShader(GL_VERTEX_SHADER);
 
 ## 练习
 
-- [02-hello-triangle 练习题](../src/02-hello-triangle/02-hello-triangle%20练习题.md)
+- [02-hello-triangle 练习题](../../src/02-hello-triangle/02-hello-triangle%20练习题.md)

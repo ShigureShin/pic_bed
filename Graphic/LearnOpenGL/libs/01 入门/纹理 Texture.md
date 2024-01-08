@@ -280,4 +280,4 @@ void main() {
 ```
 
 
-- [04-hello-texture 练习题](../src/04-hello-texture/04-hello-texture%20练习题.md)
+- [04-hello-texture 练习题](../../src/04-hello-texture/04-hello-texture%20练习题.md)
