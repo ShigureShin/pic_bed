@@ -57,7 +57,9 @@
 
 参考下图加深理解：![](img/Pasted%20image%2020240110095037.png)
 
-具体过程和之前描述的差不多，获得 A 点深度值 H(A)，对 viewDir 进行缩放，得到向量 P，*注意这里是深度值，此时向量 P 是和 viewDir 反向的*，所以经过偏移后的纹理坐标应该为：$texCoords(A) + (-P.xy*H(A)*heightScale)$
+具体过程和之前描述的差不多，获得 A 点深度值 H(A)，对 viewDir 进行缩放，得到向量 P，*注意这里是深度值，此时向量 P 是和 viewDir 反向的*，所以经过偏移后的纹理坐标应该为：
+
+$$texCoords(A) + (-P.xy*H(A)*heightScale)$$
 
 - 一般会对向量 P 乘上一个系数 $heightScale$，用以控制偏差程度（本例中 0.1 左右较好）
 - 有些时候会对 P 的坐标除以一个 $P.z$，目的是使得视线倾斜看向表面时能够产生更大的偏移营造深度感（**有偏移量限制的视差贴图 Parallax Mapping with Offset Limiting**）
