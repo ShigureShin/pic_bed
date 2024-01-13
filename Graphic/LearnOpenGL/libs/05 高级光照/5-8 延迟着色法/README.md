@@ -20,19 +20,6 @@
 
 因为在几何处理阶段已经获取了片段的位置信息等，此时已经有了深度测试结果。后续在光照处理阶段时，这时候计算的片段的光照信息都是最终会显示出来的片段颜色，从而保证了在此阶段，*每一个像素都只进行一次光照计算*，相比于正向渲染方式，避免了无用的渲染调用
 
-## 如何实现延迟着色？
-### 延迟着色法的两个阶段 （Pass）
-示意图如下：![](img/Pasted%20image%2020240112094251.png)
-#### 几何处理阶段 Geometry Pass
-- 渲染场景，获取对象几何信息并存储在**G 缓冲 G-buffer**纹理中
-- Position Vector、Color Vector、Normal Vector、Specular Vector 等
-- 这些数据可以通过**多渲染目标技术 Multiple Render Targets MRT**一个渲染处理之内获得，并为后续的光照计算做准备
-#### 光照处理阶段 Lighting Pass
-- 渲染一个屏铺四边形
-- 利用 G 缓冲中的数据对每一个片段计算光照
-
-#### 伪代码
-
 ```cpp
 while(Rendering)
 // 1.Geometry Pass
@@ -51,13 +38,16 @@ while(Rendering)
 	RenderQuad();
 ```
 
-## 延迟着色的缺点
+## 如何实现延迟着色？
+示意图如下：![](img/Pasted%20image%2020240112094251.png)
+### 几何处理阶段 Geometry Pass
+- 渲染场景，获取对象几何信息并存储在**G 缓冲 G-buffer**纹理中
+- Position Vector、Color Vector、Normal Vector、Specular Vector 等
+- 这些数据可以通过**多渲染目标技术 Multiple Render Targets MRT**一个渲染处理之内获得，并为后续的光照计算做准备
+### 光照处理阶段 Lighting Pass
+- 渲染一个屏铺四边形
+- 利用 G 缓冲中的数据对每一个片段计算光照
 
-- 因为需要在 G 缓冲中存储场景数据，如果场景比较复杂，会消耗比较多的显存
-	- 且*位置向量、法线向量*需要高精度的数据
-- 不支持混色，因为只有最前面的片段信息，我们不知道在一个物体之后存在着什么
-- 不支持MSAA
-- 强制对大部分场景片段使用相同的光照算法
 
 ---
 # Geometry Pass
@@ -233,6 +223,7 @@ glViewport(0, 0, WIDTH*2, HEIGHT*2);
 G-buffer中的数据信息可视化：
 ![](img/Pasted%20image%2020240112101726.png)
 
+
 ---
 # Lighting Pass
 
@@ -332,8 +323,76 @@ void main()
 }
 ```
 
+
 ---
 # 结合延迟渲染和正向渲染
 
+接下来尝试将延迟渲染和正向渲染相结合，在之前延迟渲染中我们设置了几个光源，但这些光源是不可见的，所以这里打算通过给光源位置设置一个小的立方体并设置对应的光源颜色来可视化这些光源的位置
+
+实现起来很简单，*只需要在延迟渲染管线的最后，按照正常步骤渲染这些光源立方体即可*
+
+```cpp
+while(Rendering)
+{
+	/*Deferred Rendering*/
+	// ...
+	// --------
+	// 正常渲染光源立方体
+	shader_LightCube.use();
+	shader_LightCube.setMat4("view", view);
+	shader_LightCube.setMat4("projection", projection);
+	for(Light light : lights)
+		model = glm::mat4(1.0f);
+		model = glm::translate(model, light.position);
+		model = glm::scale(model, glm::vec3(0.25f));
+		shader_LightCube.setMat4("model", model);
+		shader_LightCube.setVec3("light_color",light.color);
+		RenderCube();
+}
+```
+
+但此时渲染出来的立方体会出现在先前渲染的铺屏四边形之上，没有与延迟渲染的场景进行深度检测
+
+有关场景的深度信息存储在帧缓冲gBuffer中，所以这里需要*将gBuffer中的深度信息读取到opengl的默认帧缓冲中*，这样正常渲染的光立方体就会和先前渲染好的场景进行深度检测，从而绘制出正确遮挡关系的画面
+
+即，在正常渲染光立方体前还需要加上如下代码：
+```cpp
+glBindFramebuffer(GL_READ_FRAMEBUFFER, gBuffer);
+glBindFramebuffer(GL_DRAW_FRAMEBUFFER, 0);
+glBlitFramebuffer(0, 0, WIDTH, HEIGHT, 0, 0, WIDTH, HEIGHT, GL_DEPTH_BUFFER_BIT, GL_NEAREST);
+glBindFramebuffer(GL_FRAMEBUFFER, 0);
+```
+
+最终效果：![](img/Snipaste_2024-01-12_16-11-46.png)
+
+
+---
+# 延迟着色的缺点
+
+- 空间复杂度高（显存需求高）
+  - 因为需要在 G 缓冲中存储场景数据
+  - 且*位置向量、法线向量*需要高精度的数据
+- 不支持混色
+  - 因为只有最前面的片段信息，我们不知道在一个物体之后存在着什么
+- 不支持MSAA
+- 光照计算上：
+  - 强制对大部分场景片段使用相同的光照算法
+  - 仍然需要对一个片段计算场景中全部的光源照射信息
+
+
+---
+# 光体积
+
+延迟渲染和正向渲染同样要求*对每一个片段计算全部光源的光照*，而**光体积**真正实现了让延迟渲染实现了对大量光源的渲染，而不需要对片段计算全部光源的光照
+
+## 什么是光体积？
+
+**光体积 Light Volumens**：如其名，由于光线存在衰减，距离光源过远的片段就不去考虑，从而减少了不必要的光照计算，就好像光存在一种可以触碰到的“体积”，我们只考虑*这个体积内的片段的光照计算*
+
+所以，核心在于*找出一个光源体积的大小，或半径*
+
+## 为什么需要光体积？
+
+由于光线存在衰减，当一个片段距离光源过远时，这个光源对该片段的光照贡献可以忽略不计，如果设置一个合适光源辐射半径，就可以排除很多片段的光照计算量
 
 
