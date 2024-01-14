@@ -13,7 +13,7 @@
 - [【官方双语】e的矩阵指数——怎么算？为什么？\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV11y4y1b7c5/?spm_id_from=333.999.0.0&vd_source=ec161869fed250aa616ee2fdd48e6494)
 - [【官方双语】这个演示考验你对光的理解 | 彩虹灯柱 Part1\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1Fm4y1T7Vp/?spm_id_from=333.999.0.0&vd_source=ec161869fed250aa616ee2fdd48e6494)
 
-# 数学基础
+# 数学知识
 
 - 高等代数
 - 数学物理方法
@@ -27,6 +27,8 @@
 	- [# MIT 18.06 线性代数](https://www.bilibili.com/video/BV1sH4y1q7oz/?spm_id_from=333.999.0.0&vd_source=ec161869fed250aa616ee2fdd48e6494)
 - 数学分析
 - 数值分析
+
+# 物理知识
 
 # 一些需要注意的数学方法
 
